@@ -2,12 +2,12 @@
 	<div class="header">
 		<div class="container">
 
-			<div class="header__logo">
+			<nuxt-link to="/#home" class="header__logo">
 				<img
 					class="header__img"
 					src="../assets/Logo.svg" alt="logo">
 				<div class="header__text">Starnovskiy</div>
-			</div>
+			</nuxt-link>
 
 			<ul class="header__menu">
 				<li
@@ -154,14 +154,14 @@ export default {
 		&:not(:last-child) {
 			margin: 0 4.5rem 0 0;
 		}
+
+		a:hover {
+			color: #FF7600;
+		}
 	}
 
 	a {
 		color: #e4e4e4;
-
-		&:hover {
-			color: #FF7600;
-		}
 	}
 
 	&__burger-wrapper {

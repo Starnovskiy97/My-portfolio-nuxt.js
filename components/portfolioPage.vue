@@ -103,7 +103,7 @@ export default {
 	&__title {
 		font-size: 3rem;
 		font-weight: 400;
-		line-height: 54/48*100%;
+		line-height: calc(54/48*100%);
 		text-align: center;
 		padding: 100px 0 50px 0;
 	}

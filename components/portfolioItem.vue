@@ -89,7 +89,7 @@ export default {
 
 	&__title {
 		font-size: 1.3rem;
-		line-height: 29/24*100%;
+		line-height: calc(29/24*100%);
 	}
 
 	&__text {

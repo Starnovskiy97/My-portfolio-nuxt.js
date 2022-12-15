@@ -71,7 +71,7 @@ export default {
 		font-weight: 700;
 		font-size: 4rem;
 		letter-spacing: 2px;
-		line-height: 72/64*100%;
+		line-height: calc(72/64*100%);
 		margin: 20px 0;
 		color: #e4e4e4;
 	}
