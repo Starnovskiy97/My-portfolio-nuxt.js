@@ -2,7 +2,7 @@ import { i18n } from './lang/i18n-nuxt-config'
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
-  //target: 'static',
+  target: 'static',
   //router: {
   //  base: '/'
   //  base: 'starnovskiy97.github.io/My-portfolio-nuxt.js/'
